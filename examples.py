@@ -2,7 +2,6 @@
 
 import codecs
 import configparser
-import importlib
 import os
 import re
 import sys
@@ -12,15 +11,10 @@ from functools import update_wrapper
 import click
 import requests
 
-from multitool import (APP, MULTITOOL_LOG_FILE, MULTITOOL_PLUGINS_DIRECTORY,
-                       MULTITOOL_PLUGINS_PATH)
-from multitool import __version__ as version
-from multitool.cls import AliasedGroup
-from multitool.exceptions import exception_handler
-from multitool.plugins.commands import plugins
-from multitool.utils import (import_all_modules_in_directory,
-                             run_func_on_dir_files, setup_global_logger,
-                             show_message)
+from apigee import APP
+from apigee import __version__ as version
+from apigee.cls import AliasedGroup
+from apigee.utils import show_message
 
 URL = 'https://en.wikipedia.org/wiki/"Hello,_World!"_program'
 CONTEXT_SETTINGS = dict(
