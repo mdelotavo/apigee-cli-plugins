@@ -3,6 +3,7 @@
   "Requires": "click",
   "Maintainer": "Matthew Delotavo <matthew.t.delotavo@gmail.com>",
   "Original-Maintainer": "Matthew Delotavo <matthew.t.delotavo@gmail.com>",
-  "Description-en": "Multitool click plugins examples. Most code snippets were taken from https://click.palletsprojects.com/en/7.x/."
+  "Description-en": "apigeecli click plugins examples. Most code snippets were taken from https://click.palletsprojects.com/en/7.x/."
 }
+
 
