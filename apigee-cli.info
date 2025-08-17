@@ -3,7 +3,5 @@
   "Requires": "click",
   "Maintainer": "Matthew Delotavo <matthew.t.delotavo@gmail.com>",
   "Original-Maintainer": "Matthew Delotavo <matthew.t.delotavo@gmail.com>",
-  "Description-en": "apigeecli click plugins examples. Most code snippets were taken from https://click.palletsprojects.com/en/7.x/."
+  "Description-en": "apigeecli click plugins examples. Most code snippets were taken from https://click.palletsprojects.com/en/7.x/. Legacy info file detected. Use apigee-cli-info.json instead. If you are seeing this, your apigeecli is out of date."
 }
-
-
