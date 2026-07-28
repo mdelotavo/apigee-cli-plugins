@@ -1,7 +1,6 @@
 {
-  "Homepage": "https://github.com/mdelotavo/apigee-cli-plugins",
-  "Requires": "click",
-  "Maintainer": "Matthew Delotavo <matthew.t.delotavo@gmail.com>",
-  "Original-Maintainer": "Matthew Delotavo <matthew.t.delotavo@gmail.com>",
-  "Description-en": "apigeecli click plugins examples. Most code snippets were taken from https://click.palletsprojects.com/en/7.x/."
+  "Homepage": "",
+  "Requires": "",
+  "Maintainer": "",
+  "Description-en": ""
 }
