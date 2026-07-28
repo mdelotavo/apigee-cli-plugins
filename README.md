@@ -2,14 +2,14 @@
 
 Example plugin repository for `apigeecli`.
 
-See the `apigeecli` documentation and PyPI page for details on installing and
-using plugins:
+See the `apigeecli` PyPI page for installation instructions and plugin
+documentation:
 
 - PyPI: https://pypi.org/project/apigeecli/
 
 ## Install example plugins
 
-```
+```bash
 echo -e '[sources]\npublic = https://github.com/mdelotavo/apigee-cli-plugins' >> ~/.apigee/plugins/config
 
 apigee plugins update
@@ -19,11 +19,16 @@ apigee plugins update
 
 After installing the plugin:
 
-```
+```bash
 apigee examples -h
 ```
 
 This repository contains example Click-based commands demonstrating how to
 create and distribute plugins.
 
-You can create your own plugins using `apigeecli`'s plugin system.
+## More plugin tooling
+
+For a more generic command-line tool leveraging the same plugin system,
+including quick plugin scaffolding for local prototyping, see **multitool**:
+
+- https://pypi.org/project/multitool/
