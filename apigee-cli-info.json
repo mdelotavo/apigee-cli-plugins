@@ -1,6 +1,6 @@
 {
   "Homepage": "",
-  "Requires": "",
+  "Requires": "click",
   "Maintainer": "",
   "Description-en": ""
 }
