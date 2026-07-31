@@ -10,7 +10,7 @@ documentation:
 ## Install example plugins
 
 ```bash
-echo -e '[sources]\npublic = https://github.com/mdelotavo/apigee-cli-plugins.git' >> ~/.apigee/plugins/config
+echo -e '[sources]\nmdelotavo-apigee-plugins = https://github.com/mdelotavo/apigee-cli-plugins.git' >> ~/.apigee/plugins/config
 
 apigee plugins update
 ```
@@ -36,13 +36,13 @@ For example, a repository configured as:
 
 ```bash
 [sources]
-public = https://github.com/mdelotavo/apigee-cli-plugins.git
+mdelotavo-apigee-plugins = https://github.com/mdelotavo/apigee-cli-plugins.git
 ```
 
 should expose commands using a unique name such as:
 
 ```
-mdelotavo-apigee-cli-plugins
+mdelotavo-apigee-plugins
 ```
 
 This reduces the likelihood of collisions when multiple repositories expose plugins with the same command name.
