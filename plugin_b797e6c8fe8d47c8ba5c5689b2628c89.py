@@ -14,7 +14,7 @@ import requests
 from apigee import APP
 from apigee import __version__ as version
 from apigee.cls import AliasedGroup
-from apigee.utils import show_message
+# from apigee.utils import show_message
 
 URL = 'https://en.wikipedia.org/wiki/"Hello,_World!"_program'
 CONTEXT_SETTINGS = dict(
@@ -23,9 +23,9 @@ CONTEXT_SETTINGS = dict(
 )
 # CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
-def do_hello():
-    result = requests.get(URL)
-    show_message(re.findall('<title>(.*?)</title>', result.text)[0])
+# def do_hello():
+#     result = requests.get(URL)
+#     show_message(re.findall('<title>(.*?)</title>', result.text)[0])
 
 # @click.command()
 # @click.option("--count", default=1, help="Number of greetings.")
